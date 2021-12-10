@@ -1,0 +1,279 @@
+/* Данино меню */
+
+
+/* .single-goods{
+    color: #FFC700;
+    font-size: 24px;
+    font-family: sans-serif;
+    background-color: #717171;
+    border: 1px;
+    border-radius: 45px;
+    text-align: center;
+    padding: 13px;
+    max-width: 240px;
+    margin: 10px auto;
+} */
+
+body {
+    background-color: black;
+}
+
+h1 {
+    width: 98px;
+    height: 54px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFE700;
+}
+
+.menu {
+    background-color: #000000;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #eba72b;
+    font-size: 25px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    height: 40px;
+    line-height: 20px;
+    border: #eba72b 2px solid;
+    border-radius: 20px;
+    /* background-image: -webkit-linear-gradient(left, red 50%, yellow 50%);
+    background-image: linear-gradient(to right, red 50%, yellow 50%); */
+    background-position: 0;
+    background-size: 200%;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.menu__link:hover {
+    background-position: -100%;
+}
+
+
+/* .menu__link:hover, .menu__link-active {
+    color: #35302a;
+    background: #ffa600;
+    } */
+
+.menu p {
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 27px;
+}
+
+.header__logo {
+    background-size: auto;
+    height: 100px;
+    width: 300px;
+    padding: 10px 0 10px 30px;
+}
+
+footer {
+    background: none repeat scroll 0 0 #FFC700;
+    border-top: 1px solid #E0E0E0;
+    margin: 0 0 5px;
+    padding: 15px 0 15px 20px;
+}
+
+
+/* Видос пива и текст от Гели */
+
+.full-screen {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 250px 15px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.full-screen__body {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+
+.full-screen__title {
+    color: #eba72b;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 50px;
+    letter-spacing: 25px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    text-shadow: black 1px 1px 0, #785e04 -1px -1px 0, black -1px 1px 0, #785e04 1px -1px 0;
+    padding-left: 20px;
+    border: #000000 30px;
+}
+
+.full-screen__text {
+    color: #eba72b;
+    font-size: 18px;
+    letter-spacing: 15px;
+    text-shadow: black 1px 1px 0, #785e04 -1px -1px 0, black -1px 1px 0, #785e04 1px -1px 0;
+    position: absolute;
+    left: 29px;
+    top: -210px;
+}
+
+.full-screen__text-1 {
+    color: #eba72b;
+    font-size: 18px;
+    letter-spacing: 14px;
+    text-shadow: black 1px 1px 0, #785e04 -1px -1px 0, black -1px 1px 0, #785e04 1px -1px 0;
+    position: absolute;
+    right: 0px;
+    top: -210px;
+}
+
+.full-screen__image {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    left: -275px;
+    top: -435px;
+}
+
+.full-screen__image-1 {
+    transform: scale(-1, 1);
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    left: 600px;
+    top: -435px;
+}
+
+.full-screen__video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+
+/* ОСНОВНОЙ ТЕКСТ */
+
+.fon1 {
+    width: 400px;
+    height: 400px;
+    margin-right: 200px;
+}
+
+.fon2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+
+.fon3 {
+    width: 500px;
+    height: 300px;
+    margin-right: 110px;
+    margin-bottom: 80px;
+}
+
+.fon4 {
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.content {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.content__title {
+    color: #eba72b;
+    font-size: 42px;
+    text-align: center;
+    align-items: center;
+    padding: 100px 0 50px;
+}
+
+.content__container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 50px 15px;
+    font-size: 22px;
+    line-height: 150%;
+    color: #eba72b;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__text {
+    margin: 0px 0px 80px 0px;
+    max-width: 550px;
+}
+
+.warning {
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.video-container {
+    width: 100%;
+    height: 130px;
+}
+
+.contacts {
+    color: azure;
+    text-align: center;
+    align-items: center;
+    padding: 300px;
+}
+
+.single-goods {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    color: #eba72b;
+}
+
+.single-goods button {
+    display: block;
+    margin: 20px auto;
+}
+
+p {
+    color: #eba72b;
+}
+
+.my-cart {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    color: #eba72b;
+}
