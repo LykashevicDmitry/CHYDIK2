@@ -25,7 +25,7 @@
     <p style="float: right"><a class="menu__link" href="../basket/basket.html">Корзина</a></p>
 </nav>
 <!-- ФОРМА АВТОРИЗАЦИИ -->
-<form action="vender/signup.php" method="post" enctype="multipart/form-data">
+<form>
     <label>ФИО</label>
     <input type="text" name="fullname"  placeholder="Введите своё ФИО">
     <label>Логин</label>
@@ -38,18 +38,14 @@
     <input type="password" name="password" placeholder="Введите пароль">
     <label>Подтверждение пароля</label>
     <input type="password" name="password_confirm" placeholder="Введите пароль повторно">
-    <button type="submit">Зарегестрироватсья</button>
+    <button type="submit" class="register-btn">Зарегестрироватсья</button>
     <p>
         У вас уже есть аккаунт - <a href="/authorization.php">Авторизуйтесь</a>!
     </p>
-    <?php
-        if ($_SESSION['message']){
-            echo '
-             <p class="msg">' . $_SESSION['message'] .  '</p>';
-        }
-    unset($_SESSION['message']);
-    ?>
+    <p class="msg none">Test text </p>;
 
-</form>
+    </form>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
