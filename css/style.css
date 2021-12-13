@@ -1,18 +1,6 @@
 /* Данино меню */
 
 
-/* .single-goods{
-    color: #FFC700;
-    font-size: 24px;
-    font-family: sans-serif;
-    background-color: #717171;
-    border: 1px;
-    border-radius: 45px;
-    text-align: center;
-    padding: 13px;
-    max-width: 240px;
-    margin: 10px auto;
-} */
 
 body {
     background-color: black;
@@ -81,13 +69,16 @@ h1 {
     width: 300px;
     padding: 10px 0 10px 30px;
 }
-
 footer {
-    background: none repeat scroll 0 0 #FFC700;
-    border-top: 1px solid #E0E0E0;
-    margin: 0 0 5px;
-    padding: 15px 0 15px 20px;
+    border-top: 1px solid #eba72b;
+    bottom: 0;
+    left:0;
+    color: #eba72b;
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
 }
+
 
 
 /* Видос пива и текст от Гели */
@@ -213,7 +204,7 @@ footer {
     font-size: 42px;
     text-align: center;
     align-items: center;
-    padding: 100px 0 50px;
+    padding: 10px 0 50px;
 }
 
 .content__container {
@@ -246,22 +237,61 @@ footer {
     color: azure;
     text-align: center;
     align-items: center;
-    padding: 300px;
+    padding-top: 250px;
 }
-
-.single-goods {
+.contacts__title{
+    color: #eba72b;
+    font-size: 42px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0 20px;
+}
+.contacts_warning{
+    color: #eba72b;
+    font-size: 30px;
+    padding: 100px 0 20px;
+}
+.contacts__address{
+    color: #eba72b;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+}
+.contacts__tel{
+    color: #eba72b;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+}
+.single-goods{
     width: 200px;
     height: 300px;
-    border: 1px solid black;
-    margin: 10px;
     float: left;
     text-align: center;
-    color: #eba72b;
+    color: #FFC700;
+    font-size: 24px;
+    font-family: sans-serif;
+    background-color: #717171;
+    border: 1px;
+    border-radius: 45px;
+    text-align: center;
+    padding: 13px;
+    max-width: 240px;
+    margin: 10px ;
 }
-
+.single-goods img{
+    margin: 0 auto;
+}
 .single-goods button {
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: monospace;
+    background-color: yellow;
+    border: 1px;
+    border-radius: 45px;
+    text-align: center;
 }
 
 p {
@@ -276,4 +306,24 @@ p {
     float: left;
     text-align: center;
     color: #eba72b;
+}
+#goods{
+    margin-top: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contacts_image{
+    display: flex;
+    margin: 15px auto;
+    justify-content: center;
+}
+.contacts_image img{
+    width:50px;
+    height:50px;
+}
+.none{
+    display: none;
+}
+.error{
+    border-bottom: 2px solid #ff4332;
 }

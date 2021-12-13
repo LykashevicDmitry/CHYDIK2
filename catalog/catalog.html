@@ -1,30 +1,43 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="..\css\style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПИВО</title>
+    <link rel="stylesheet" type="text/css" href="../css/obnul.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
-    <nav class="menu">
 
-        <a style="float: left" class="header__logo" href="../index.html"><img src="../img/logo.jpg" width="80" height="80" alt="Undergraund"></a>
-        <p style="float: right"><a class="menu__link" href="../authorization/authrization.php">Авторизация</a></p>
-        <p style="float: right"><a class="menu__link" href="../contacts/contacts.html">Контакты</a></p>
-        <p style="float: right"><a class="menu__link" href="../catalog/catalog.html">Каталог</a></p>
-        <p style="float: right"><a class="menu__link" href="../basket/cart.html">Корзина</a></p>
-    </nav>
-    <div id="mini-cart">
+<!-- ВЕРХНЕЕ ЗАФИКСИРОВАННОЕ МЕНЮ -->
 
+<nav class="menu">
+
+    <a style="float: left" class="header__logo" href="../index.html"><img src="../img/logo.jpg" width="80" height="80" alt="Undergraund"></a>
+    <p style="float: right"><a class="menu__link" href="../authorization/authrization.php">Авторизация</a></p>
+    <p style="float: right"><a class="menu__link" href="../contacts/contacts.html">Контакты</a></p>
+    <p style="float: right"><a class="menu__link" href="../catalog/catalog.html">Каталог</a></p>
+    <p style="float: right"><a class="menu__link" href="../basket/cart.html">Корзина</a></p>
+</nav>
+
+<div class="container">
+    <div class="contacts">
+        <div class="contacts__title">КОНТАКТЫ</div>
+        <div class="contacts__address">Адрес: ул. Мориса Тореза 12А</div>
+        <div class="contacts__tel">Телефон: +7 (908)-869-79-16</div>
+        <div class="contacts_image">
+            <a href="https://vk.com/away.php?to=https%3A%2F%2Finstagram.com%2Fcastle_craftbar%3Futm_medium%3Dcopy_link&cc_key=">
+                <img src="../img/instagram_icon.svg" alt=""></a>
+            <a  href="https://vk.com/barcastell207893482">
+                <img src="../img/vk_icon.svg" alt=""></a>
+        </div>
+        <footer>
+            <div>ПРЕДУПРЕЖДАЕМ О ВРЕДЕ ЧРЕЗМЕРНОГО ПОТРЕБЛЕНИЯ АЛКОГОЛЬНОЙ ПРОДУКЦИИ</div>
+        </footer>
     </div>
-    <div id="goods">
-
-    </div>
-
-    <script src="../js/jquery-3.1.1.min.js"></script>
-    <script src="../js/eshop.js"></script>
+</div>
 </body>
-
 </html>
